@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247D6A6B1F9DC7A800FBC673 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D6A6A1F9DC7A800FBC673 /* SecondViewController.swift */; };
+		247D6A6D1F9DCCFF00FBC673 /* swiftFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D6A6C1F9DCCFF00FBC673 /* swiftFunc.swift */; };
 		2D1A17D31B7AF71A00E12FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17D21B7AF71A00E12FCF /* main.m */; };
 		2D1A17D61B7AF71A00E12FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17D51B7AF71A00E12FCF /* AppDelegate.m */; };
 		2D1A17D91B7AF71A00E12FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17D81B7AF71A00E12FCF /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		2D1A17DE1B7AF71A00E12FCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A17DD1B7AF71A00E12FCF /* Images.xcassets */; };
 		2D1A17E11B7AF71A00E12FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A17DF1B7AF71A00E12FCF /* LaunchScreen.xib */; };
 		2D1A17ED1B7AF71A00E12FCF /* BlockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17EC1B7AF71A00E12FCF /* BlockTestTests.m */; };
+		2D1A17F81B7B1B0000E12FCF /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A17F71B7B1B0000E12FCF /* NextViewController.m */; };
+		2DFD4E771B7DE07B007B015B /* sharedInstanceClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD4E761B7DE07B007B015B /* sharedInstanceClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		247D6A691F9DC7A700FBC673 /* BlockTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		247D6A6A1F9DC7A800FBC673 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		247D6A6C1F9DCCFF00FBC673 /* swiftFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftFunc.swift; sourceTree = "<group>"; };
 		2D1A17CD1B7AF71A00E12FCF /* BlockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1A17D11B7AF71A00E12FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1A17D21B7AF71A00E12FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,10 @@
 		2D1A17E61B7AF71A00E12FCF /* BlockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1A17EB1B7AF71A00E12FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1A17EC1B7AF71A00E12FCF /* BlockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestTests.m; sourceTree = "<group>"; };
+		2D1A17F61B7B1B0000E12FCF /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2D1A17F71B7B1B0000E12FCF /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2DFD4E751B7DE07B007B015B /* sharedInstanceClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedInstanceClass.h; sourceTree = "<group>"; };
+		2DFD4E761B7DE07B007B015B /* sharedInstanceClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedInstanceClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +96,17 @@
 				2D1A17D51B7AF71A00E12FCF /* AppDelegate.m */,
 				2D1A17D71B7AF71A00E12FCF /* ViewController.h */,
 				2D1A17D81B7AF71A00E12FCF /* ViewController.m */,
+				2D1A17F61B7B1B0000E12FCF /* NextViewController.h */,
+				2D1A17F71B7B1B0000E12FCF /* NextViewController.m */,
+				2DFD4E751B7DE07B007B015B /* sharedInstanceClass.h */,
+				2DFD4E761B7DE07B007B015B /* sharedInstanceClass.m */,
+				247D6A6A1F9DC7A800FBC673 /* SecondViewController.swift */,
+				247D6A6C1F9DCCFF00FBC673 /* swiftFunc.swift */,
 				2D1A17DA1B7AF71A00E12FCF /* Main.storyboard */,
 				2D1A17DD1B7AF71A00E12FCF /* Images.xcassets */,
 				2D1A17DF1B7AF71A00E12FCF /* LaunchScreen.xib */,
 				2D1A17D01B7AF71A00E12FCF /* Supporting Files */,
+				247D6A691F9DC7A700FBC673 /* BlockTest-Bridging-Header.h */,
 			);
 			path = BlockTest;
 			sourceTree = "<group>";
@@ -168,6 +186,7 @@
 				TargetAttributes = {
 					2D1A17CC1B7AF71A00E12FCF = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0900;
 					};
 					2D1A17E51B7AF71A00E12FCF = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -219,9 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247D6A6D1F9DCCFF00FBC673 /* swiftFunc.swift in Sources */,
+				247D6A6B1F9DC7A800FBC673 /* SecondViewController.swift in Sources */,
 				2D1A17D91B7AF71A00E12FCF /* ViewController.m in Sources */,
+				2D1A17F81B7B1B0000E12FCF /* NextViewController.m in Sources */,
 				2D1A17D61B7AF71A00E12FCF /* AppDelegate.m in Sources */,
 				2D1A17D31B7AF71A00E12FCF /* main.m in Sources */,
+				2DFD4E771B7DE07B007B015B /* sharedInstanceClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +305,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -323,6 +347,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -343,9 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BlockTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockTest/BlockTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,15 +383,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BlockTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockTest/BlockTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2D1A17F41B7AF71A00E12FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -381,6 +416,7 @@
 		2D1A17F51B7AF71A00E12FCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -412,6 +448,7 @@
 				2D1A17F21B7AF71A00E12FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D1A17F31B7AF71A00E12FCF /* Build configuration list for PBXNativeTarget "BlockTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				2D1A17F51B7AF71A00E12FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
